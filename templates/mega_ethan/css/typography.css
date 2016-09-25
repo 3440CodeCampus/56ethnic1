@@ -1,0 +1,528 @@
+/**
+ * @version    $Id: typography.css July 16th, 2011 18: 28: 38Z OmegaTheme: TrungDam $
+ * @package    OmegaTheme Joomla Template
+ * @subpackage  Mega Ethan
+ * @author    OmegaTheme (services@omegatheme.com)
+ * @link     http: //omegatheme.com
+ * @copyright  Copyright (C) 2008 - 2011 OmegaTheme
+ * @license    http: //www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+ 
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+    
+  font-weight: normal;
+  line-height: 135%;
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+a {
+  border: none;
+  color: #FF8A00;
+  font-size: 1em;
+  text-decoration: none;
+  outline: none;
+  outline-width: medium;
+  outline-style: none;
+  cursor: pointer;
+}
+a:active,
+a:focus,
+a:visited {
+  border: none;
+  outline: none;
+  outline: 0;
+}
+a:hover {
+  text-decoration: underline;
+}
+a img {
+  border: none;
+}
+p {
+  line-height: 1.5em;
+  padding: 3px 0;
+}
+ul li {
+  list-style: none;
+}
+/* ------------------------------- Headings ------------------------------- */
+h1,h2,h3,h4,h5,h6 {font-family: Verdana;font-weight: bold;}
+h1 {font-size: 3em;line-height: 1;margin-bottom: 0.5em;}
+h2 {font-size: 2em;margin-bottom: 0.75em;line-height: normal;}
+h3 {font-size: 1.5em;line-height: 1;margin-bottom: 1em;line-height: normal;}
+h4 {font-size: 1.2em;line-height: 1.25;margin-bottom: 1.25em;line-height: normal;}
+h5 {font-size: 1em;margin-bottom: 1.5em;line-height: normal;}
+h6 {font-size: 1em;line-height: normal;}
+ul {padding-left: 0;}
+ul li {list-style: none;margin-left: 0;}
+li ol {margin: 0;}
+ul, ol {margin: 0;padding: 0;}
+ul {list-style-type: disc;}
+ol {list-style-type: decimal;}
+dl {margin: 0;}
+dl dt {font-weight: bold;}
+dd {margin: 0em;}
+pre {
+  padding: 10px;
+  border: 1px solid #CEE0E4;
+  color: #02576B;
+}
+blockquote {
+  border: 1px solid #CEE0E4;
+    color: #02576B;
+    font-size: 110%;
+    font-style: italic;
+    overflow: hidden;
+    line-height: 150%;
+    margin: 5px 0;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+ }
+/*
+blockquote: before {content: open-quote;font-weight: bold;}
+blockquote: after {content: close-quote;font-weight: bold;}
+*/
+/* ---------------------- Style for Form ---------------------- */
+label {
+  font-weight: bold;
+}
+fieldset {
+  padding: 0;
+  margin: 0 0 1em 0;
+  border: 1px solid #CCC;
+}
+legend {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+input.text,
+input.title,
+textarea {
+  background-color: #FFFFFF;
+  border: 1px solid #BBBBBB;
+}
+caption {
+  background: #EFEFEF;
+}
+table {}
+table tr {}
+table tr td {
+  padding: 4px 5px;
+}
+/*-------------------- @group Notice Styles -------------------*/
+span.alert {
+  color: #C00;
+  border-top: 3px solid #FE7B7A;
+  border-bottom: 3px solid #FE7B7A;
+}
+span.info {
+  color: #0055BB;
+  border-top: 3px solid #629DE3;
+  border-bottom: 3px solid #629DE3;
+}
+span.note {
+  color: #B79000;
+  border-top: 3px solid #FDE179;
+  border-bottom: 3px solid #FDE179;
+}
+span.download {
+  color: #57861A;
+  border-top: 3px solid #C2DF88;
+  border-bottom: 3px solid #C2DF88;
+}
+span.alert,
+span.info,
+span.download,
+span.note {
+  display: block;
+  padding: 10px 10px 10px 45px;
+  margin: 15px 0;  
+}
+/* +++++++++++++++++++++ Style Extends ++++++++++++++++++++ */
+.clearfix {
+    clear: both;
+}
+p, pre, blockquote, ul, ol, h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    padding: 0;
+}
+ol li {
+    margin-left: 21px;
+}
+div.mega-list-left {
+    clear: left;
+    float: left;
+}
+div.mega-list-right {
+    float: right;
+}
+div.mega-list-left,
+div.mega-list-right {
+    margin: 0;
+    padding: 0;
+    width: 49%;
+}
+ul li {
+    background: url("../images/typography/arrow.png") no-repeat scroll 4px 7px transparent;
+    line-height: normal;
+    padding: 2px 0 2px 15px;
+}
+ul.checklist li {
+    background: url("../images/typography/checklist.png") no-repeat scroll 4px 2px transparent !important;
+    margin-bottom: 5px;
+    padding: 0 0 0 22px !important;
+}
+ul.star li {
+    background: url("../images/typography/star.png") no-repeat scroll 2px 0 transparent !important;
+    margin-bottom: 5px;
+    padding: 0 0 0 22px !important;
+}
+ul.arrow li {
+    background: url("../images/typography/arrow_bold.png") no-repeat scroll 5px 5px transparent;
+    margin-bottom: 5px;
+    padding: 1px 0 1px 20px;
+}
+/* box comment */
+div.bubble1,
+div.bubble2,
+div.bubble3,
+div.bubble4 {
+    margin: 15px 0;
+}
+div.bubble1 span.author,
+div.bubble2 span.author,
+div.bubble3 span.author,
+div.bubble4 span.author {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 18px;
+    margin-left: 35px;
+}
+div.bubble1 div {
+    background: url("../images/typography/bub1-br.png") no-repeat scroll right bottom transparent;
+    margin: 0;
+    width: 100%;
+}
+div.bubble1 div div {
+    background: url("../images/typography/bub1-bl.png") no-repeat scroll left bottom transparent;
+}
+div.bubble1 div div div {
+    background: url("../images/typography/bub1-tr.png") no-repeat scroll right top transparent;
+}
+div.bubble1 div div div div {
+    background: url("../images/typography/bub1-tl.png") no-repeat scroll left top transparent;
+}
+div.bubble1 div div div div div {
+    margin: 0;
+    padding: 10px 15px 30px;
+    width: auto;
+}
+div.bubble2 div {
+    background: url("../images/typography/bub2-br.png") no-repeat scroll right bottom transparent;
+    margin: 0;
+    width: 100%;
+}
+div.bubble2 div div {
+    background: url("../images/typography/bub2-bl.png") no-repeat scroll left bottom transparent;
+}
+div.bubble2 div div div {
+    background: url("../images/typography/bub2-tr.png") no-repeat scroll right top transparent;
+}
+div.bubble2 div div div div {
+    background: url("../images/typography/bub2-tl.png") no-repeat scroll left top transparent;
+}
+div.bubble2 div div div div div {
+    margin: 0;
+    padding: 12px 15px 30px;
+    width: auto;
+}
+div.bubble3 div {
+    background: url("../images/typography/bub3-br.png") no-repeat scroll right bottom transparent;
+    margin: 0;
+    width: 100%;
+}
+div.bubble3 div div {
+    background: url("../images/typography/bub3-bl.png") no-repeat scroll left bottom transparent;
+}
+div.bubble3 div div div {
+    background: url("../images/typography/bub3-tr.png") no-repeat scroll right top transparent;
+}
+div.bubble3 div div div div {
+    background: url("../images/typography/bub3-tl.png") no-repeat scroll left top transparent;
+}
+div.bubble3 div div div div div {
+    margin: 0;
+    padding: 14px 15px 65px;
+    width: auto;
+}
+div.bubble4 div {
+    background: url("../images/typography/bub4-br.png") no-repeat scroll right bottom transparent;
+    margin: 0;
+    width: 100%;
+}
+div.bubble4 div div {
+    background: url("../images/typography/bub4-bl.png") no-repeat scroll left bottom transparent;
+}
+div.bubble4 div div div {
+    background: url("../images/typography/bub4-tr.png") no-repeat scroll right top transparent;
+}
+div.bubble4 div div div div {
+    background: url("../images/typography/bub4-tl.png") no-repeat scroll left top transparent;
+}
+div.bubble4 div div div div div {
+    margin: 0;
+    padding: 10px 15px 65px;
+    width: auto;
+}
+p.note {
+    background: url("../images/typography/stickynote.gif") no-repeat scroll 8px center #FFFFFF;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 10px 15px 70px;
+}
+p.download {
+    background: url("../images/typography/download.gif") no-repeat scroll 8px center #FFFFFF;
+    border: 1px solid #C6C6C6;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 10px 15px 70px;
+}
+blockquote {
+  padding: 15px 10px;
+}
+blockquote span.open {
+    background: url("../images/typography/bq-o.png") no-repeat scroll left top transparent;
+    padding: 0 0 10px 30px;
+}
+blockquote span.close {
+    background: url("../images/typography/bq-c.png") no-repeat scroll right bottom transparent;
+    padding: 0 25px 5px 0;
+}
+.blocknumber {
+    clear: both;
+    padding: 5px 5px 10px 0;
+    position: relative;
+}
+.bignumber {
+    color: #FFFFFF;
+    font: bold 23px Arial,sans-serif;
+}
+.bignumber {
+    background: url("../images/typography/bignumber.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font: bold 23px Arial,sans-serif;
+    margin-right: 8px;
+    padding: 4px 8px 7px 7px;
+}
+p.error {
+    background: url("../images/typography/error.png") no-repeat scroll left top transparent;
+    color: #DF0000;
+    padding: 5px 0 5px 50px;
+}
+p.tips {
+    background: url("../images/typography/tips.png") no-repeat scroll left top transparent;
+    color: #FA6900;
+    padding: 3px 0 3px 50px;
+}
+p.feed {
+    background: url("../images/typography/feed.png") no-repeat scroll 3px 0 transparent;
+    padding: 3px 0 3px 50px;
+}
+.highlight {
+   /*  background: none repeat scroll 0 0 #ECECEC;*/
+	background: none repeat scroll 0 0 yellow;
+	border-radius: 5px 5px 5px 5px;
+    color: #3D3D3D;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+.dropcap {
+    overflow: hidden;
+}
+.legend {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    margin: 20px 0;
+    padding: 0 10px;
+    position: relative;
+}
+.legend-title {
+    background: none repeat scroll 0 0 #818181;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 100%;
+    font-weight: bold;
+    left: 7px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 3px;
+    position: absolute;
+    top: -10px;
+}
+div.thumb-col {
+    float: left;
+    margin-right: 2%;
+    overflow: hidden;
+}
+div.thumb2 div.thumb-col {
+    width: 48%;
+}
+
+div.thumb3 div.thumb-col {
+    width: 31%;
+}
+div.thumb4 div.thumb-col {
+    width: 22%;
+}
+div.thumb-lastcol {
+    float: right;
+    margin-right: 0 !important;
+    overflow: hidden;
+}
+img.image-border {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C6C6C6;
+    padding: 3px;
+}
+img.image-left {
+    float: left;
+    margin: 0.5em 1em 0.5em 0;
+}
+/* +++++++++++++++++++++ Style 1 for table ++++++++++++++++++++ */
+table.style1 {
+    background-color: #C5C8C8;
+    border-collapse: collapse;
+    color: #404040;
+}
+table.style1 thead {
+    border-bottom: 1px solid #284D73;
+}
+table.style1 thead th {
+    background-color: #5581AA;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+table.style1 tfoot th,
+table.style1 tfoot td {
+    background-color: #D9D9D9;
+    color: #000000;
+    font-size: 1.1em;
+    padding: 3px 10px;
+    text-transform: capitalize;
+}
+table.style1 tr.odd {
+}
+table.style1 tbody tr:hover {
+  background: #E5E5E5;
+}
+table.style1 tbody th {
+    white-space: nowrap;
+}
+table.style1 th, table.style1 td {
+    border: 1px solid #F9F9F9;
+    padding: 4px 10px;
+}
+table.style1 tfoot td {
+    text-align: right;
+}
+/* ++++++++++++++++++++ Style 2 for table ++++++++++++++++++ */
+table.style2 {
+    background: none repeat scroll 0 0 #6D8DAC;
+    border: 1px solid #162C40;
+    border-collapse: collapse;
+    color: #FFFFFF;
+}
+table.style2 td,
+table.style2 th {
+    border: 1px solid #366999;
+    padding: 5px 10px;
+}
+table.style2 thead th {
+    background: none repeat scroll 0 0 #224161;
+    border: 1px solid #284D73;
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+table.style2 tfoot th,
+table.style2 tfoot td {
+    background: none repeat scroll 0 0 #294E74;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    padding: 4px 10px;
+}
+table.style2 tbody tr.odd {
+    background: none repeat scroll 0 0 #43668A;
+}
+table.style2 tbody tr:hover {
+  background: #2F5578;
+}
+table.style2 tbody th,
+table.style2 tbody td {
+    text-align: left;
+    vertical-align: top;
+}
+table.style2 tfoot td {
+    text-align: right;
+}
+/* ++++++++++++++++++++ Style 3 for table ++++++++++++++++++ */
+table.style3 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-collapse: collapse;
+    color: #404040;
+}
+table.style3 thead th {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #362323;
+    border-color: #595959 #595959 #000000;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+table.style3 tfoot th,
+table.style3 tfoot td {
+    background-color: #D9D9D9;
+    border: medium none;
+    color: #000000;
+    font-size: 1.1em;
+    padding: 4px 10px;
+}
+table.style3 tbody tr.odd {
+    background: none repeat scroll 0 0 #F2F2F2;
+}
+table.style3 tbody tr:hover {
+  background: #E5E5E5;
+}
+table.style3 tbody th,
+table.style3 tbody td {
+    text-align: left;
+    vertical-align: top;
+}
+table.style3 td,
+table.style3 th {
+    border: 1px solid #E5E5E5;
+    padding: 5px 10px;
+}
+table.style3 tfoot td {
+    text-align: right;
+}

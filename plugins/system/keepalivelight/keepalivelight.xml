@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.6" type="plugin" group="system" method="upgrade">
+	<name>PLG_KEEPALIVELIGHT</name>
+	<author>Michael Richey</author>
+	<creationDate>May 2010</creationDate>
+	<copyright>Copyright (C) 2010 Michael Richey. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>keepalivelight@richeyweb.com</authorEmail>
+	<authorUrl>www.richeyweb.com</authorUrl>
+	<version>1.3</version>
+	<description>PLG_KEEPALIVELIGHT_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="keepalivelight">keepalivelight.php</filename>
+		<filename>index.html</filename>
+	</files>
+        <languages folder="language">
+                <language tag="en-GB">en-GB.plg_system_keepalivelight.ini</language>
+                <language tag="en-GB">en-GB.plg_system_keepalivelight.sys.ini</language>
+        </languages>
+	<config>
+	</config>
+</install>

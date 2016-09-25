@@ -1,0 +1,158 @@
+/**
+ * @version		$Id: template.css July 16th, 2011 18:28:38Z OmegaTheme:TrungDam $
+ * @package		OmegaTheme Joomla Template
+ * @subpackage	Mega Ethan
+ * @author		OmegaTheme (services@omegatheme.com)
+ * @link 		http://omegatheme.com
+ * @copyright	Copyright (C) 2008 - 2011 OmegaTheme
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+.mega-clr {
+	clear: both;
+}
+/* --------------- SYSTEM MESSAGE STYLES ---------------- */
+#system-message {
+	margin-bottom: 10px;
+	padding: 0;
+}
+#system-message dt {
+	font-weight: bold;
+	display: none;
+}
+#system-message dd {
+	margin: 0;
+	font-weight: bold;
+	text-indent: 15px;
+}
+#system-message dd ul {
+	color: #0055BB;
+	background-position: 4px top;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	list-style: none;
+	padding: 10px;
+	border-top: 3px solid #84A7DB;
+	border-bottom: 3px solid #84A7DB;
+}
+#system-message dd ul li {
+	line-height:1.5em;
+}
+/* System Standard Messages */
+#system-message dd.message ul {
+	background-color: #C3D2E5;
+	background-image: url(../images/notice-info.png);
+}
+/* System Error Messages */
+#system-message dd.error ul,
+#system-message dd.warning ul,
+#system-message dd.notice ul {
+	color: #c00;
+}
+#system-message dd.error ul {
+	background-color: #E6C0C0;
+	background-image: url(../images/notice-alert.png);
+	border-top-color: #DE7A7B;
+	border-bottom-color: #DE7A7B;
+}
+/* System Warning Messages */
+#system-message dd.warning ul {
+	color: #c00;
+	background-color: #E6C8A6;
+	background-image: url(../images/notice-note.png);
+	border-top-color: #FFBB00;
+	border-bottom-color: #FFBB00;
+}
+/* System Notice Messages */
+#system-message dd.notice ul {
+	color: #c00;
+	background-color: #EFE7B8;
+	background-image: url(../images/notice-note.png);
+	border-top-color: #F0DC7E;
+	border-bottom-color: #F0DC7E;
+}
+/* --------------- END SYSTEM MESSAGE STYLES ---------------- */
+
+.mega-main-content h2.title,
+.headline h1.title,
+.search h1.title,
+.blog h2.title {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.item {
+	overflow: hidden;
+}
+.mega-main-content-padding/*
+.blog-featured,
+.item-page,
+.search,
+.blog*/ {
+	padding: 0 14px;
+}
+.readmore {
+	text-align: right;
+}
+.icons {
+	float: right;
+}
+.content_area img {
+	margin: 5px 10px 3px 0;
+}
+.content_area .icon img {
+	margin: 0;
+}
+p.articleinfo {
+	margin-top: 0;
+}
+td.contentheading {
+	padding-top: 10px;
+	font-size: 16px;
+}
+ul.actions {
+	float: right;
+	margin: 0;
+}
+ul.actions li {
+	background: none;
+	float: left;
+	padding: 0 2px;
+}
+.item-separator {
+	border-top: 1px solid #DCDCDC;
+}
+ul.pagenav {
+	text-align: center;
+	overflow: hidden;
+	width: 100px;
+	margin: 10px auto;
+}
+div.pagination ul {
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 3px;
+}
+div.counter {
+	text-align: center;
+	margin-bottom: 12px;
+}
+ul.pagenav li,
+div.pagination ul li {
+	background: none;
+	padding: 0 4px;
+}
+div.pagination ul li {
+	display: inline;
+}
+ul.pagenav li.pagenav-prev {
+	float: left;
+}
+ul.pagenav li.pagenav-next {
+	float: right;
+}
+.search fieldset {
+	padding: 10px;
+}
+.search legend {
+	padding: 0 3px;
+}

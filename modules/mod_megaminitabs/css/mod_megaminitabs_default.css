@@ -1,0 +1,66 @@
+<?php
+/**===========================================================================================
+# mod_megaminitabs		Mega Mini Tabs module for Joomla 1.6.0
+#=============================================================================================
+# author				OmegaTheme.com
+# copyright				Copyright (C) 2011 OmegaTheme.com. All rights reserved.
+# @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+# Website				http://omegatheme.com
+# Technical support		Forum - http://omegatheme.com/forum/
+#=============================================================================================*/
+
+
+/**------------------------------------------------------------------------
+* file: css/mod_megaminitabs_default.css 1.6.0 00001, Mar 2011 12:00:00Z OmegaTheme:Linh $
+* package:	Mega Mini Tabs module free version
+* description: stylesheet  file	for default layout
+*------------------------------------------------------------------------*/
+
+/* =========== default layout =============*/
+.mmt-wrapper{
+}
+.tab_selector_wrapper{
+}
+
+/* tab selector */
+.tab_selector{
+	background: #FFF;
+}
+.tab_selector li{}
+.tab_selector li span{
+	color: #414141;
+}
+.tab_selector li.open_tab span{
+	background: #E7E7E7;
+}
+/* tab panel */
+.tab_panel_wrapper{
+	background: #E7E7E7;
+}
+
+/* content type tab */
+.mmt-items-wrapper{
+}
+.mmt-item-wrapper{
+	border-bottom: 1px dashed #CCCCCC;
+}
+.mmt-thumb-wrapper{
+}
+.mmt-thumbnail{
+}
+.mmt-title{
+}
+.mmt-title-link{
+}
+.created_date{
+}
+.mmt-article-introtext{
+}
+.mmt-readmore-link{
+}
+.view-all{
+}
+
+
+
+

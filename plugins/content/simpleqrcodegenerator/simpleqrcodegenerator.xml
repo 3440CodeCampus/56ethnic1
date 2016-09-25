@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content">
+<name>Content - Simple QR Code Generator</name>
+<author>Alexios Ntounas</author>
+<authorUrl>http://www.ntounas.gr</authorUrl>
+<creationDate>March 4th, 2012</creationDate>
+<version>1.0</version>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<description>SIMPLEQRCODEGENERATOR_DESCRIPTION</description>
+<files>
+	<filename plugin="simpleqrcodegenerator">simpleqrcodegenerator.php</filename>
+</files>
+<languages folder="language">
+	<language tag="en-GB">en-GB/en-GB.plg_content_simpleqrcodegenerator.ini</language>
+	<language tag="en-GB">en-GB/en-GB.plg_content_simpleqrcodegenerator.sys.ini</language>
+</languages>
+<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="size" type="text" default="150" label="QR Code image size" description="The width and height of QR image in pixels" />
+			<field name="align" type="list" default="" label="Alignment" description="Choose the alignment of the qr image">
+				<option value="">None</option>
+				<option value="left">Left</option>
+				<option value="right">Right</option>
+				<option value="middle">Middle</option>
+				<option value="top">Top</option>
+				<option value="bottom">Bottom</option>
+			</field>
+		</fieldset>
+	</fields>
+</config>
+</extension>

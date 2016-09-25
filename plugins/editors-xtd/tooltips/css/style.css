@@ -1,0 +1,21 @@
+/**
+ * Tooltips editor button CSS
+ *
+ * @package			Tooltips
+ * @version			1.2.3
+ *
+ * @author			Peter van Westen <peter@nonumber.nl>
+ * @link			http://www.nonumber.nl
+ * @copyright		Copyright © 2011 NoNumber! All Rights Reserved
+ * @license			http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+.button2-left div.tooltips {
+	background: transparent url(../images/button_right.png) no-repeat 100% 0;
+	font-size:24px; /* 新加入 */
+	
+}
+.button2-left .blank.blank_tooltips a {
+	padding: 0 6px;
+	font-size:24px; /* 新加入 */
+}

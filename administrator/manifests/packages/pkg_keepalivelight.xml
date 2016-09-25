@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+	<name>KeepaliveLight Package</name>
+	<creationDate>March 2011</creationDate>
+	<packagename>keepalivelight</packagename>
+	<version>1.0</version>
+	<url>http://www.richeyweb.com</url>
+	<author>Michael Richey</author>
+	<authorEmail>keepalivelight@richeyweb.com</authorEmail>
+	<authorUrl>http://www.richeyweb.com</authorUrl>
+	<description>KeepaliveLight overrides the default keepalive behavior which requests the homepage (and all of the database queries, modules and plugins associated) replacing it with a request for a do-nothing component using the component template (no content plugins, modules or their associated database queries).</description>
+	<files folder="packages">
+		<file type="component" id="com_keepalivelight" >com_keepalivelight.zip</file>
+		<file type="plugin" id="keepalivelight" client="system">plg_keepalivelight.zip</file>
+	</files>
+</extension>

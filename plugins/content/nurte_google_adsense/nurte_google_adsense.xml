@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.6.0" group="content">
+	<name>Nurte Google AdSense</name>
+	<author>Nurte</author>
+	<creationDate>23.10.2010</creationDate>
+	<copyright>Copyright (C) 2010 Nurte All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>nurtepl@gmail.com</authorEmail>
+	<authorUrl>www.nurte.pl</authorUrl>
+	<version>1.9.0.0</version>
+	<description>NURTE_GOOGLE_ADSENSE_DESC</description>
+	<files>
+		<filename plugin="nurte_google_adsense">nurte_google_adsense.php</filename>				
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_nurte_google_adsense.ini</language> 
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="spacer1" type="spacer" default="" label="Currently, AdSense publishers may place up to three AdSense for content units on one webpage." description="" />
+				<field name="spacer2" type="spacer" default="" label="------------------- AdSense 1 -------------------" description="" />
+				<field name="ads1text" type="textarea" filter="raw" default="" rows="5" cols="40" label="AdSense unit code" description="Specify AdSense unit code" />
+				<field name="ads1catids" type="sql"  default="0" multiple="multiple" size="5" label="Categories" description="Show in one Category or many Categories" query="SELECT * FROM #__categories WHERE published=1 AND extension = 'com_content' ORDER BY parent_id" key_field="id" value_field="title"/>
+				<field name="ads1artids" type="textarea" rows="3" cols="40" default="" label="IDs of excluded articles" description="Add the article ID you want to exclude. Use semicolon (;) to separate each article ID." />
+				<field name="ads1positions" type="list" default="before" multiple="multiple" label="Ads positions" description="Select one or more positions from the list.  You can use Ctrl-click to select more than one item.">
+					<option value="none">none</option>
+					<option value="placeholder">placeholder {ads1}</option>
+					<option value="before">before the content</option>
+					<option value="top">top of the content</option>
+					<option value="bottom">bottom of the content</option>
+					<option value="after">after the content</option>
+				</field>
+				<field name="ads1align" type="list" default="center" label="Ads align" description="Align of AdSense 1 - unit code in an article.">
+					<option value="left">left</option>
+					<option value="right">right</option>
+					<option value="center">center</option>
+					<option value="none">none</option>
+				</field>
+				<field name="ads1frontpage" type="radio" default="0" label="Featured articles" description="Show in Featured articles.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="ads1categoryview" type="radio" default="0" label="Category view" description="Show in Category view.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="ads1_to_guest_only" type="radio" default="0" label="Guest only" description="Show to guest user only.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="spacer3" type="spacer" default="" label="------------------- AdSense 2 -------------------" description="" />
+				<field name="ads2text" type="textarea" filter="raw" default="" rows="5" cols="40" label="AdSense unit code" description="Specify AdSense unit code" />
+				<field name="ads2catids" type="sql"  default="0" multiple="multiple" size="5" label="Categories" description="Show in one Category or many Categories" query="SELECT * FROM #__categories WHERE published=1 AND extension = 'com_content' ORDER BY parent_id" key_field="id" value_field="title"/>
+				<field name="ads2artids" type="textarea" rows="3" cols="40" default="" label="IDs of excluded articles" description="Add the article ID you want to exclude. Use semicolon (;) to separate each article ID." />
+				<field name="ads2positions" type="list" default="after" multiple="multiple" label="Ads positions" description="Select one or more positions from the list.  You can use Ctrl-click to select more than one item.">
+					<option value="none">none</option>
+					<option value="placeholder">placeholder {ads2}</option>
+					<option value="before">before the content</option>
+					<option value="top">top of the content</option>
+					<option value="bottom">bottom of the content</option>
+					<option value="after">after the content</option>
+				</field>
+				<field name="ads2align" type="list" default="center" label="Ads align" description="Align of AdSense 2 - unit code in an article.">
+					<option value="left">left</option>
+					<option value="right">right</option>
+					<option value="center">center</option>
+					<option value="none">none</option>
+				</field>
+				<field name="ads2frontpage" type="radio" default="0" label="Featured articles" description="Show in Featured articles.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="ads2categoryview" type="radio" default="0" label="Category view" description="Show in Category view.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="ads2_to_guest_only" type="radio" default="0" label="Guest only" description="Show to guest user only.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="spacer4" type="spacer" default="" label="------------------- AdSense 3 -------------------" description="" />
+				<field name="ads3text" type="textarea" filter="raw" default="" rows="5" cols="40" label="AdSense unit code" description="Specify AdSense unit code" />
+				<field name="ads3catids" type="sql"  default="0" multiple="multiple" size="5" label="Categories" description="Show in one Category or many Categories" query="SELECT * FROM #__categories WHERE published=1 AND extension = 'com_content' ORDER BY parent_id" key_field="id" value_field="title"/>
+				<field name="ads3artids" type="textarea" rows="3" cols="40" default="" label="IDs of excluded articles" description="Add the article ID you want to exclude. Use semicolon (;) to separate each article ID." />
+				<field name="ads3positions" type="list" default="bottom" multiple="multiple" label="Ads positions" description="Select one or more positions from the list.  You can use Ctrl-click to select more than one item.">
+					<option value="none">none</option>
+					<option value="placeholder">placeholder {ads3}</option>
+					<option value="before">before the content</option>
+					<option value="top">top of the content</option>
+					<option value="bottom">bottom of the content</option>
+					<option value="after">after the content</option>
+				</field>
+				<field name="ads3align" type="list" default="center" label="Ads align" description="Align of AdSense 3 - unit code in an article.">
+					<option value="left">left</option>
+					<option value="right">right</option>
+					<option value="center">center</option>	
+					<option value="none">none</option>
+				</field>
+				<field name="ads3frontpage" type="radio" default="0" label="Featured articles" description="Show in Featured articles.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="ads3categoryview" type="radio" default="0" label="Category view" description="Show in Category view.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="ads3_to_guest_only" type="radio" default="0" label="Guest only" description="Show to guest user only.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="spacer5" type="spacer" default="" label="------------------------------------------------" description="" />
+				<field name="nga_ip_list" type="textarea" filter="raw" rows="3" cols="40" default="" label="Blocked IP address list" description="Add the IP address you want to block. Use semicolon (;) to separate each IP address." />
+				<field name="nga_alternate_content" type="textarea" filter="raw" rows="4" cols="40" default="Your IP address is blocked by Nurte Google AdSense Plugin." label="Alternate Content" description="Specify alternate content for blocked IP addresses." />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

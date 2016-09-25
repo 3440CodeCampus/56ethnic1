@@ -1,0 +1,52 @@
+/**
+ * Main JavaScript file
+ *
+ * @package			Tooltips
+ * @version			1.2.3
+ *
+ * @author			Peter van Westen <peter@nonumber.nl>
+ * @link			http://www.nonumber.nl
+ * @copyright		Copyright © 2011 NoNumber! All Rights Reserved
+ * @license			http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+function tooltips_init(tip)
+{
+	var tip = tip;
+	tip.fade_in = new Fx.Tween(tip, { property: 'opacity', 'duration': tooltips_fade_in_speed });
+	tip.fade_out = new Fx.Tween(tip, { property: 'opacity', 'duration': tooltips_fade_out_speed });
+	if (tooltips_sticky) {
+		document.addEvent('click', function()
+		{
+			tooltips_hide(tip);
+		});
+	}
+	tip.initialized = 1;
+}
+function tooltips_show(tip)
+{
+	if (typeof( tip.initialized ) == 'undefined') {
+		tooltips_init(tip);
+	}
+	document.getElements('.tooltips-tip').each(function(el)
+	{
+		el.setStyle('display', 'none');
+	});
+	if (( tip.getElement('img') && tip.getElement('img').getStyle('width').toInt() > tooltips_max_width )
+		|| ( tip.getElement('table') && tip.getElement('table').getStyle('width').toInt() > tooltips_max_width )
+		) {
+		tip.getElement('div.tip').setStyle('max-width', 'none');
+	} else {
+		tip.getElement('div.tip').setStyle('max-width', tooltips_max_width);
+	}
+	tip.setStyle('display', 'block');
+	tip.fade_in.cancel();
+	tip.fade_out.cancel();
+	tip.fade_in.start(1);
+}
+function tooltips_hide(tip)
+{
+	tip.fade_in.cancel();
+	tip.fade_out.cancel();
+	tip.fade_out.start(0);
+}

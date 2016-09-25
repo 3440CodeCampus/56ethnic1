@@ -1,0 +1,64 @@
+/**
+ # mod_megamininews - Mega Mini News Module for Joomla! 1.6
+ # author 		OmegaTheme.com
+ # copyright 	Copyright(C) 2011 - OmegaTheme.com. All Rights Reserved.
+ # @license 	http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Website: 	http://omegatheme.com
+ # Technical support: Forum - http://omegatheme.com/forum/
+**/
+/**------------------------------------------------------------------------
+ * file: layout.css 1.6.0 00001, March 2011 12:00:00Z OmegaTheme $
+ * package:	Mega Mini News Module
+ *------------------------------------------------------------------------*/
+ img{
+	border: none;
+}
+.mega_news,
+.mega_news .mega_items,
+.mega_news .mega_viewall,
+.mega_news .spaces{
+	width: 100%;
+	float: left;
+}
+.mega_news .mega_items{
+	padding-bottom: 8px;
+	border-bottom: 1px #ccc dotted;
+}
+.mega_news .last-item{
+	border: none;
+	padding-bottom: 0px;
+}
+.mega_news .mega_viewall{
+	text-align: right;
+}
+.mega_news .spaces{
+	height: 10px;
+}
+.mega_thumbs{
+	float: left;
+	padding: 2px;
+	border: 1px #e7e7e7 solid;
+    margin-right: 12px;
+    overflow: hidden;
+}
+.mega_articles{
+	
+}
+.mega_articles .mega_title{
+	
+}
+.mega_title a.title{
+	font-weight: bold;
+}
+p.createddate{
+	padding: 2px 0;
+	margin: 0;
+}
+span.mega_date{
+	color: #999;
+	font-size: 12px;
+}
+.mega_readmore{
+	margin-top: 5px;
+	text-align: right;
+}

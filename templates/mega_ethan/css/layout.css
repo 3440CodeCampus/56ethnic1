@@ -1,0 +1,118 @@
+/**
+ * @version		$Id: layout.css July 16th, 2011 18:28:38Z OmegaTheme:TrungDam $
+ * @package		OmegaTheme Joomla Template
+ * @subpackage	Mega Ethan
+ * @author		OmegaTheme (services@omegatheme.com)
+ * @link 		http://omegatheme.com
+ * @copyright	Copyright (C) 2008 - 2011 OmegaTheme
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+body#body-bg {
+	background: #F8FFFF url('../images/body-bg.jpg') no-repeat 50% 0;
+}
+#mega-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+#mega-header-wrap {
+	position: relative;
+}
+#mega-mainmenu-wrap {
+	background: url('../images/main-menu-bg.png') no-repeat 50% 0;
+	height: 60px;
+	position: relative;
+	z-index: 3;
+}
+#mega-mainmenu {
+	width: 772px;
+	float: left;
+}
+.mega-search {
+	width: 188px;
+	float: left;
+}
+#mega-header-top {
+	height: 125px;
+	position: relative;
+	z-index: 2;
+}
+#logo,
+#module-top {
+	width: 50%;
+	float: left;
+}
+#logo {
+	background: url('../images/logo.jpg') no-repeat 0 50%;
+	/*height: 125px;*/
+	height: 110px;
+}
+#module-top {}
+#mega-header-slideshow {
+	margin-bottom: 16px;
+	height: 268px;
+	position: relative;
+	z-index: 1;
+}
+#mega-body-wrap {
+	background: url('../images/main-body-bg-top.png') no-repeat 0 0;
+	padding-top: 7px;
+}
+#mega-body-inner {
+	background: url('../images/main-body-bg-bottom.png') no-repeat 0 100%;
+	padding-bottom: 7px;
+}
+#mega-body-wrap .mega-main-content-full {
+	background: url('../images/main-body-full-bg-bottom.png') no-repeat 0 100%;
+}
+#mega-body-content-wrap {
+	border-left: 1px solid #DCE2E2;
+	border-right: 1px solid #DCE2E2;
+	background-color: #FFF;
+	overflow: hidden;
+}
+.mega-main-content #mega-main-content-wrap {
+	background: #FFF url('../images/right-module-bg.png') repeat-y 686px 0;
+	overflow: hidden;
+}
+#mega-body-top-wrap {
+	border-bottom: 1px solid #E9E9E9;
+}
+#mega-body-top-inner {
+	background: url('../images/body-top-module-bg.png') no-repeat 50% 100%;
+	margin-bottom: 2px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.topbox {
+	float: left;
+	overflow: hidden;
+}
+#mega-main-content {
+	width: 686px;
+	float: left;
+}
+#mega-right-wrap {
+	width: 272px;
+	float: right;
+}
+#mega-right-inner {
+	padding: 11px 8px;
+	overflow: hidden;
+}
+#mega-bottom-wrap {
+	overflow: hidden;
+	margin-top: 20px;
+}
+.botbox {
+	float: left;
+}
+#mega-footer-wrap {
+	border-top: 1px solid #C7C7C7;
+	margin-top: 15px;
+}
+.mega-footer-content {
+	border-top: 1px solid #C7C7C7;
+	margin: 2px 0 30px 0;
+	padding-top: 15px;
+}

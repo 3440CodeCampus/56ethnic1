@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.7" type="template" client="site">
+	<name>Mega EThan</name>
+	<creationDate>July 2011</creationDate>
+	<author>OmegaTheme.com</author>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://omegatheme.com</authorUrl>
+	<copyright>Copyright (C) 2011 OmegaTheme. All rights reserved.</copyright>
+	<version>1.7.0</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description><![CDATA[
+		<div>
+			<img src="../templates/mega_ethan/template_thumbnail.png" align="right" style="margin: 0px 0px 10px 10px;" alt="OmegaTheme Mega Ethan template" />
+			<div style="font-size: 13px;">
+			<strong>Mega Ethan</strong> - OmegaTheme Joomla 1.7 templates. 
+			<br /><br /><strong>OmegaTheme</strong><br />Professional, clean and powerfull Joomla templates.<br /><a href="http://omegatheme.com/" title="Go to OmegaTheme homepage" target="_blank">http://omegatheme.com</a>.
+			<br /><br /><strong>OmegaTheme Templates</strong><br />See a template product of all Omegatheme templates.<br /><a href="http://omegatheme.com/omega-templates.html" title="Go to OmegaTheme templates overview" target="_blank">http://omegatheme.com/omega-templates.html</a>.
+			<br /><br /><strong>OmegaTheme News and Updates</strong><br />Read the News, updates, tutorials and get help for all Omegatheme products.<br /><a href="http://omegatheme.com/new-and-updates.html" title="Go to OmegaTheme News, updates and more" target="_blank">http://omegatheme.com/new-and-updates.html</a>.
+			</div>
+		</div>
+		]]>
+	</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>lib</folder>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>mainmenu</position>
+		<position>searchbox</position>
+		<position>logo</position>
+		<position>header-top</position>
+		<position>slideshow</position>
+		<position>topbox-1</position>
+		<position>topbox-2</position>
+		<position>right</position>
+		<position>botbox-1</position>
+		<position>botbox-2</position>
+		<position>botbox-3</position>
+		<position>botbox-4</position>
+		<position>fortab1</position>
+		<position>fortab2</position>
+		<position>copyright</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="width_type" 
+					type="radio" 
+					default="px"
+					label="Set width type" 
+					description="Set the width for template (pixel)" >
+						<option value="px">Pixel (px)</option>
+				</field>
+				<field name="width" 
+					type="text" 
+					size="20" 
+					default="960" 
+					readonly="readonly"
+					label="Website width" 
+					description="This is fixed template so don't change this valude (Default: 960)." />
+				<field name="width_right" 
+					type="text" 
+					default="272" 
+					size="20" 
+					label="Width of right column" 
+					description="Enter the width for Right column (Example: 300, 200,... )." />
+				<field name="color_text" 
+					type="text" 
+					size="20" 
+					default="#000000" 
+					label="Color for text" 
+					description="Enter the color code for the website main content. Default : #000000" />
+				<field name="color_links" 
+					type="text" 
+					size="20" 
+					default="#FF8A00"
+					label="Color for links" 
+					description="Enter the color code for the links. Default : #FF8A00" />
+				<field name="fontSize" 
+					type="list" 
+					default="12px" 
+					label="Default font size" 
+					description="Set the default font size when template is loaded for the first time" >
+						<option value="10px">Smallest</option>
+						<option value="11px">Small</option>
+						<option value="12px">Normal</option>
+						<option value="13px">Big</option>
+						<option value="14px">Biggest</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

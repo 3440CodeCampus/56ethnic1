@@ -1,0 +1,57 @@
+/**
+ * @version    $Id: customs.css July 16th, 2011 18:28:38Z OmegaTheme:TrungDam $
+ * @package    OmegaTheme Joomla Template
+ * @subpackage  Mega Ethan
+ * @author    OmegaTheme (services@omegatheme.com)
+ * @link     http://omegatheme.com
+ * @copyright  Copyright (C) 2008 - 2011 OmegaTheme
+ * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+input#mod-search-searchword {
+  width: 164px;
+  height: 18px;
+  color: #7C7C7C;
+  margin: 14px 0 0 8px;
+  border: medium none;
+  background-color: #4A4A4A;
+}
+#logo a {
+  display: block;
+  width: 326px;
+  height: 73px;
+  margin: 25px 0 0 4px;
+  text-indent: -9999px;
+}
+#mega-bottom-wrap .moduletable {
+  margin-right: 15px;
+}
+#mega-bottom-wrap .lastbox .moduletable {
+  margin-right: 0;
+}
+#mega-footer-wrap p {
+  margin: 0;
+  text-align: center;
+}
+#system-debug {
+  clear: both;
+}
+.topbox .moduletable {
+  padding: 0 19px;
+}
+.botbox h3 {
+  border-bottom: 1px solid #D5D5D5;
+  padding-bottom: 8px;
+}
+.botbox ul li {
+  background: none;
+  padding: 6px 0;
+  border-top: 1px solid #D5D5D5;
+}
+.mega-item {
+  float: left;
+  width: 49%;
+}
+.mega-item .item-bg {
+    padding-right: 10px;
+}

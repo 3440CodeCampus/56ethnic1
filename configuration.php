@@ -1,0 +1,77 @@
+<?php
+class JConfig {
+	public $offline = '0';
+	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
+	public $sitename = '耀我中华';
+	public $editor = 'jckeditor';
+	public $list_limit = '20';
+	public $access = '1';
+	public $debug = '0';
+	public $debug_lang = '0';
+	public $dbtype = 'mysql';
+	public $host = 'localhost';
+	public $user = 'root';
+	public $password = '';
+	public $db = '56ethnic';
+	public $dbprefix = 'j25_';
+	public $live_site = '';
+	public $secret = 'pRCxxtllMn3GM9iQF0y9DoyfG59kN76T';
+	public $gzip = '0';
+	public $error_reporting = 'default';
+	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help16:{keyref}';
+	public $ftp_host = 'ftp.chineseethnic.info';
+	public $ftp_port = '21';
+	public $ftp_user = '1345803';
+	public $ftp_pass = 'Mpec34+40#';
+	public $ftp_root = '';
+	public $ftp_enable = '0';
+	public $offset = 'UTC';
+	public $offset_user = 'UTC';
+	public $mailer = 'mail';
+	public $mailfrom = 'admin@chineseethnic.info';
+	public $fromname = '耀我中华';
+	public $sendmail = '/usr/sbin/sendmail';
+	public $smtpauth = '0';
+	public $smtpuser = '';
+	public $smtppass = '';
+	public $smtphost = 'localhost';
+	public $smtpsecure = 'none';
+	public $smtpport = '25';
+	public $caching = '0';
+	public $cache_handler = 'file';
+	public $cachetime = '15';
+	public $MetaDesc = '中国五十六个民族 、五十六种风情习俗、五十六套服饰、五十六个风采各异承传下来的故事。
+
+';
+	public $MetaKeys = '中华民族，五十六，服装，习俗，风彩，文化，生活
+';
+	public $MetaTitle = '1';
+	public $MetaAuthor = '1';
+	public $sef = '1';
+	public $sef_rewrite = '0';
+	public $sef_suffix = '0';
+	public $unicodeslugs = '0';
+	public $feed_limit = '10';
+	public $log_path = 'C:/xampp/htdocs/56ethnic/log';
+	public $tmp_path = 'C:/xampp/htdocs/56ethnic/tmp';
+	public $lifetime = '15';
+	public $session_handler = 'database';
+	public $MetaRights = '';
+	public $sitename_pagetitles = '0';
+	public $force_ssl = '0';
+	public $feed_email = 'author';
+	public $cookie_domain = '';
+	public $cookie_path = '';
+	public $memcache_persist = '1';
+	public $memcache_compress = '1';
+	public $memcache_server_host = 'localhost';
+	public $memcache_server_port = '11211';
+	public $display_offline_message = '1';
+	public $robots = '';
+	public $offline_image = '';
+	public $captcha = '0';
+	public $MetaVersion = '0';
+	public $legacy = '0';
+	public $xmlrpc_server = '1';
+	public $debug_db = '0';
+}

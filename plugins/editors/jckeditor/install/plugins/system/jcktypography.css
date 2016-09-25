@@ -1,0 +1,194 @@
+/*
+ * JCK Editor Typography Style-sheet
+ * @author Paul Franklin
+ * @version 1.0
+ * @copyright (C) WebxSolution Ltd 2011 - 2012. All rights reserved.
+ */ 
+
+ /* Highlight
+----------------------------------------------------------------------------------------------------*/
+span.bluhlight-jck, span.grehlight-jck, span.redhlight-jck, span.blahlight-jck , span.yelhlight-jck {
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    display: inline;
+    font-weight: bold;
+	text-shadow: none;
+    padding: 2px 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+span.bluhlight-jck {  background: none repeat scroll 0 0 #3E6A86;}
+span.grehlight-jck {  background: none repeat scroll 0 0 #b9cd96;}
+span.redhlight-jck {  background: none repeat scroll 0 0 #AA1428;}
+span.blahlight-jck {  background: none repeat scroll 0 0 #000000;}
+span.yelhlight-jck {  background: none repeat scroll 0 0 #F2F096;}
+ 
+/* Box Styles
+----------------------------------------------------------------------------------------------------*/
+.blubox-jck, .grebox-jck, .redbox-jck, .blabox-jck, .yelbox-jck   {
+	background: none repeat scroll 0 0 #FAFAFA;
+	border-style: solid;
+    border-width: 1px 1px 1px 8px;
+    margin: 10px 0 20px;
+    padding: 8px;
+	-webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.blubox-jck  {  border-color: #DDDDDD #DDDDDD #DDDDDD #3E6A86;}
+.grebox-jck  {  border-color: #DDDDDD #DDDDDD #DDDDDD #b9cd96;}
+.redbox-jck {  border-color: #DDDDDD #DDDDDD #DDDDDD #AA1428;}
+.blabox-jck  {  border-color: #DDDDDD #DDDDDD #DDDDDD #000000;}
+.yelbox-jck  {  border-color: #DDDDDD #DDDDDD #DDDDDD #F2F096;}
+
+/* Icon Library
+----------------------------------------------------------------------------------------------------*/
+.info-jck, .warning-jck, .film-jck, .pin-jck , .lightbulb-jck , .recycle-jck , .camera-jck, .comment-jck, .chat-jck, .document-jck, .accessible-jck, .star-jck, .heart-jck, .previous-jck, .cart-jck, .attachment-jck, .calculator-jck, .cut-jck, .dollar-jck, .pound-jck , .euro-jck, .mail-jck, .next-jck  {
+    display: block;
+    padding: 20px 0 20px 60px;
+	margin-bottom: 20px;
+	background-color: transparent !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+}
+.info-jck { background: url("info.png")}
+.warning-jck { background: url("warning.png")}
+.film-jck { background: url("film.png")}
+.pin-jck {background: url("pin.png")}
+.lightbulb-jck {background: url("light_bulb.png")}
+.recycle-jck { background: url("recycle.png")}
+.camera-jck { background: url("camera.png")}
+.comment-jck { background: url("comment.png")}
+.chat-jck  { background: url("chat.png")}
+.document-jck { background: url("document.png")}
+.accessible-jck { background: url("accessible.png")}
+.star-jck { background: url("star.png")}
+.heart-jck { background: url("heart.png")}
+.previous-jck { background: url("previous.png")}
+.cart-jck { background: url("cart.png")}
+.attachment-jck { background: url("attachment.png")}
+.calculator-jck { background: url("calculator.png")}
+.cut-jck { background: url("cut.png")}
+.dollar-jck { background: url("dollar_currency_sign.png")}
+.pound-jck { background: url("sterling_pound_currency_sign.png")}
+.euro-jck { background: url("euro_currency_sign.png")}
+.mail-jck { background: url("mail.png")}
+.support-jck { background: url("support.png")}
+.next-jck  { background: url("next.png")}
+
+/* Tooltips
+----------------------------------------------------------------------------------------------------*/
+.infotip-jck, .warningtip-jck, .filmtip-jck, .pintip-jck , .lightbulbtip-jck , .recycletip-jck , .cameratip-jck, .commenttip-jck, .chattip-jck, .documenttip-jck, .accessibletip-jck, .startip-jck, .hearttip-jck, .previoustip-jck, .carttip-jck, .attachmenttip-jck, .calculatortip-jck, .cuttip-jck, .dollartip-jck, .poundtip-jck , .eurotip-jck, .mailtip-jck, .nexttip-jck  {
+    display: block;
+	margin-bottom: 20px;
+	background-color: #FAFAFA !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+	background-size: 28px auto !important;
+    border-bottom: 1px dotted #C8C8C8;
+    border-top: 1px dotted #C8C8C8;
+    display: block;
+    margin: 10px 0;
+    padding: 7px 10px 7px 35px;
+}
+.infotip-jck { background: url("info.png")}
+.warningtip-jck { background: url("warning.png")}
+.filmtip-jck { background: url("film.png")}
+.pintip-jck {background: url("pin.png")}
+.lightbulbtip-jck {background: url("light_bulb.png")}
+.recycletip-jck { background: url("recycle.png")}
+.cameratip-jck { background: url("camera.png")}
+.commenttip-jck { background: url("comment.png")}
+.chattip-jck  { background: url("chat.png")}
+.documenttip-jck { background: url("document.png")}
+.accessibletip-jck { background: url("accessible.png")}
+.startip-jck { background: url("star.png")}
+.hearttip-jck { background: url("heart.png")}
+.previoustip-jck { background: url("previous.png")}
+.carttip-jck { background: url("cart.png")}
+.attachmenttip-jck { background: url("attachment.png")}
+.calculatortip-jck { background: url("calculator.png")}
+.cuttip-jck { background: url("cut.png")}
+.dollartip-jck { background: url("dollar_currency_sign.png")}
+.poundtip-jck { background: url("sterling_pound_currency_sign.png")}
+.eurotip-jck { background: url("euro_currency_sign.png")}
+.mailtip-jck { background: url("mail.png")}
+.supporttip-jck { background: url("support.png")}
+.nexttip-jck  { background: url("next.png")}
+
+/* Number Disc's
+----------------------------------------------------------------------------------------------------*/
+
+span.bludisc-jck, span.bludisc-black-jck, span.gredisc-jck, span.gredisc-black-jck, span.reddisc-jck, span.reddisc-black-jck, span.bladisc-jck, span.bladisc-black-jck, span.yeldisc-jck, span.yeldisc-black-jck {
+    background-image: url("mask-white.png");
+    background-position: left top !important;
+    background-repeat: no-repeat !important;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 1.4em;
+    margin-right: 10px;
+    text-align: center;
+    width: 42px;
+	height: 31px; padding-top: 11px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+span.bludisc-black-jck, span.gredisc-black-jck, span.reddisc-black-jck , span.bladisc-black-jck , span.yeldisc-black-jck { 
+	background-image: url("mask-black.png")!important;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+span.bludisc-jck, span.bludisc-black-jck {  background-color: #3E6A86;}
+span.gredisc-jck, span.gredisc-black-jck {  background-color: #b9cd96;}
+span.reddisc-jck, span.reddisc-black-jck {  background-color: #AA1428;}
+span.bladisc-jck, span.bladisc-black-jck {  background-color: #000000;}
+span.yeldisc-jck, span.yeldisc-black-jck {  background-color: #F2F096;}
+
+/* Preformatted text
+----------------------------------------------------------------------------------------------------*/
+pre {
+    border-left: 10px solid #B9CD96;
+    border-top: 1px solid #CFCFCF;
+    display: block;
+    font: 1em/1.5 Monaco,Consolas,"Courier News",monospace;
+    max-height: 500px;
+    overflow: scroll;
+    width: 86%;
+	padding: 10px;
+	background: url("bg-precode.png") repeat scroll left center transparent;
+	border-radius: 0!important;
+}
+span.dropcap  {
+    color: #333333;
+    display: block;
+    float: left;
+    font: 60px/40px Georgia,Times,serif;
+    padding: 7px 8px 0 0;
+}
+blockquote {
+    background: url("bg-quote.png") no-repeat scroll 0 10px #F5F5F5;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 17px;
+    font-style: italic;
+    margin: 0 80px 18px 0;
+    padding: 18px 20px 18px 80px;
+}
+address {
+	background-color: #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 10px 20px;
+    padding: 2px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7" client="site" method="upgrade">
+	<name>Mega Simple Video</name>
+	<author>Omegatheme.com</author>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>omegatheme.com</authorUrl>
+    <creationDate>July 2011</creationDate>
+    <license>Non - Commercial</license>
+    <version>1.7.0</version>
+    <copyright>Copyright (C) 2011 Omegatheme. All rights reserved.</copyright>
+	<description>MEGA_SIMPLE_VIDEO_DESC</description>
+	<files>
+		<filename module="mod_megasimplevideo">mod_megasimplevideo.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="videoWidth" type="text" default="240" label="MEGA_SIMPLE_VIDEO_FIELD_VIDEOWIDTH_LABEL" description="MEGA_SIMPLE_VIDEO_FIELD_VIDEOWIDTH_DESC" />
+				<field name="videoHeight" type="text" default="210" label="MEGA_SIMPLE_VIDEO_FIELD_VIDEOHEIGHT_LABEL" description="MEGA_SIMPLE_VIDEO_FIELD_VIDEOHEIGHT_DESC" />
+				<field name="videoUrl" type="text" default="http://www.youtube.com/v/OuvXLAA07jY" label="MEGA_SIMPLE_VIDEO_FIELD_VIDEOURL_LABEL" description="MEGA_SIMPLE_VIDEO_FIELD_VIDEOURL_DESC" />
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="owncache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC" >
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

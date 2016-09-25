@@ -1,0 +1,232 @@
+/**
+ * @version		$Id: menu.css July 16th, 2011 18:28:38Z OmegaTheme:TrungDam $
+ * @package		OmegaTheme Joomla Template
+ * @subpackage	Mega Ethan
+ * @author		OmegaTheme (services@omegatheme.com)
+ * @link 		http://omegatheme.com
+ * @copyright	Copyright (C) 2008 - 2011 OmegaTheme
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+#main-nav, 
+#main-nav ul.level0 {
+	padding: 0;
+	margin: 0;
+}
+/* ------ All list items ------ */
+#main-nav li,
+#main-nav li li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+/* -------- Top level -------- */
+#main-nav ul.level0 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 45px;
+}
+#main-nav ul.level0 li .menu_round {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#main-nav ul.level0 li {
+	background: none;
+	cursor: pointer;
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#main-nav ul.level0 li .menu_round,
+#main-nav ul.level0 li .menu_round .menu_round {
+	width: 205px;
+	position: absolute;
+	z-index: 8;
+	height: auto;
+}
+#main-nav ul.level0 li .menu_round,
+#main-nav ul.level0 li .menu_round .menu_round,
+#main-nav ul.level0 li.sfhover .menu_round .menu_round {
+	left: -999em;
+}
+#main-nav ul.level0 li .menu_round .menu_round,
+#main-nav ul.level0 li.sfhover .menu_round .menu_round {
+	margin: -32px 0 0 204px;
+}
+#main-nav ul.level0 li li {
+	padding: 0;
+	margin: 0;
+	width: 205px;
+}
+/* -------- STYLING THE MENU -------- */
+/* -------- 1st level -------- */
+#main-nav ul.menu li a,
+#main-nav ul.menu li span.separator {
+	padding: 0 15px;
+	margin: 0;
+	display: block;
+	color: #D2D2D2;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+}
+#main-nav ul.menu li a span,
+#main-nav ul.menu li span.separator span {
+	font: 14px/45px Arial, Verdana, Helvetica;
+	height: 45px;
+	padding: 0;
+}
+#main-nav ul.menu li.parent a span {}
+#main-nav ul.menu li a:hover,
+#main-nav ul.menu li a:active {
+	background: none;
+	color: #FFF;
+}
+#main-nav ul.menu li {
+	margin: 0;
+	padding: 0;
+}
+#main-nav ul.menu li.first {
+	margin-left: 0;
+	padding-left: 0;
+}
+#main-nav ul.menu li.last,
+#main-nav ul.menu li.last a {
+	padding-right: 0;
+}
+#main-nav ul.menu li.active,
+#main-nav ul.menu li.sfhover {}
+
+#main-nav ul.menu li a:hover,
+#main-nav ul.menu li.active a,
+#main-nav ul.menu li.active span.separator,
+#main-nav ul.menu li.active a:hover,
+#main-nav ul.menu li.sfhover a,
+#main-nav ul.menu li.sfhover span.separator {
+	color: #FF8A09;
+}
+/* -------- 2nd level and above -------- */
+#main-nav ul.level0 ul,
+#main-nav ul.level0 ul ul {
+	margin: 0;
+	padding: 0;
+}
+#main-nav ul.level0 li li {
+	border-bottom: none;
+	margin: 0;
+	padding: 0;
+}
+#main-nav ul.level0 li .menu_round,
+#main-nav ul.level0 li.sfhover .menu_round {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#main-nav li .menu_top,
+#main-nav li .menu_mid,
+#main-nav li .menu_bot {
+	width: 100%;
+	float: left;
+}
+#main-nav li .menu_mid {
+	background: #444444;
+	margin-top: 0!important;
+	margin-top: -11px;
+}
+#main-nav li .menu_top {}
+#main-nav li li .menu_top {}
+#main-nav li .menu_bot {}
+#main-nav li .menu_mid {}
+#main-nav ul.level0 li li {
+	width: 205px;
+	padding: 0;
+	border-left: none;
+	border-right: none;
+}
+#main-nav ul.level0 li.parent li.parent {
+	background: #444444 url("../images/submenu_parent_arrow.png") no-repeat 195px 12px;
+}
+#main-nav ul.level0 li.parent li.first {
+	background: none;
+	border: none;
+}
+#main-nav ul.level0 li.parent li.first,
+#main-nav ul.level0 li.parent li.first.sfhover {
+	
+}
+#main-nav ul.level0 li li.sfhover {
+	padding: 0;
+}
+#main-nav ul.level0 li.parent ul li {
+	padding: 0;
+}
+#main-nav ul.level0 li.parent ul li a {
+	margin: 0;
+	padding: 0;
+	background: none;
+	color: #D2D2D2;
+	cursor: pointer;
+	display: block;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: none;
+	width: auto;
+}
+#main-nav ul.level0 li.parent ul li.active li a {
+	color: #FFF;
+}
+#main-nav ul.level0 li.parent ul li.active a,
+#main-nav ul.level0 li.parent ul li.active li.active a,
+#main-nav ul.level0 li.parent ul li a:hover,
+#main-nav ul.level0 li.parent ul li.active li a:hover {
+	color: #FF8A00;
+}
+#main-nav ul.level0 li.parent ul li a span {
+	background: none;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	height: auto;
+	line-height: normal;
+	padding: 8px 15px;
+	text-transform: none;
+}
+#main-nav ul.menu li.parent li.parent a,
+#main-nav ul.menu li.parent li.parent li.parent a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li.parent a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li.parent li.parent a {}
+#main-nav ul.menu li.parent li.parent a:hover,
+#main-nav ul.menu li.parent li.parent.sfhover a:hover,
+#main-nav ul.menu li.parent li.parent.active a,
+#main-nav ul.menu li.parent li.parent li.parent.active a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent.active a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li.parent.active a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li.parent li.parent.active a {}
+#main-nav ul.menu li.parent li.parent li a:hover,
+#main-nav ul.menu li.parent li.parent.sfhover li a:hover,
+#main-nav ul.menu li.parent li.parent li a,
+#main-nav ul.menu li.parent li.parent li.parent li a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li.parent li a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li.parent li.parent li a,
+#main-nav ul.menu li.parent li.parent.active li a,
+#main-nav ul.menu li.parent li.parent li.parent.active li a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent.active li a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li.parent.active li a,
+#main-nav ul.menu li.parent li.parent li.parent li.parent li.parent li.parent.active li a {
+	background: none;
+}
+#main-nav ul.menu li li a {
+	border-top: 1px solid #D2D2D2;
+}
+#main-nav ul.menu li li.first a {
+	border-top: none;
+}
